@@ -33,7 +33,7 @@ const Repositories = () => {
   return (
     <>
       <div
-        className="overflow-x-auto mt-5 mx-4 md:mx-20 rounded-md"
+        className="overflow-x-auto overflow-y-auto mt-5 mx-4 md:mx-20 rounded-md"
         style={{
           boxShadow:
             "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
@@ -76,7 +76,7 @@ const Repositories = () => {
                         <span className="text-gray-900">
                           <span className={preahvihear.className}>
                             {repo.description
-                              ? repo.description
+                              ? repo.description.slice(0, 100)
                               : "No Description"}
                           </span>
                         </span>

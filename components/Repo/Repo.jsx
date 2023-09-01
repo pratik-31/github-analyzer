@@ -32,7 +32,7 @@ const Repo = ({ name }) => {
 
   return (
     <div className="fixed w-full h-full flex justify-center items-center">
-      <div className="flex border-2 rounded-lg border-gray-200 teaminnerbutton border-opacity-50 p-8 sm:flex-row flex-col">
+      <div className="flex w-1/3 border-2 rounded-lg border-gray-200 teaminnerbutton border-opacity-50 p-8 sm:flex-row flex-col">
         <div className="flex-grow">
           <h2 className="text-gray-900 text-4xl title-font font-2xl mb-6">
             <span className={preahvihear.className}>{repo.name}</span>
