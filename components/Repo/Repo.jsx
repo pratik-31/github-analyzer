@@ -77,7 +77,7 @@ const Repo = ({ name }) => {
             <button
               type="submit"
               onClick={() => router.push("/")}
-              className="w-1/6 text-center flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br bg-black hover:text-white  focus:ring-4 focus:outline-none focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              className="w-full text-center flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br bg-black hover:text-white  focus:ring-4 focus:outline-none focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
             >
               <span className="w-full relative px-5 py-2.5 transition-all ease-in duration-75 bg-white text-gray-900 hover:text-gray-50  rounded-md group-hover:bg-opacity-0">
                 <span className={preahvihear.className}>Back</span>
