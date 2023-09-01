@@ -63,7 +63,7 @@ const Repositories = () => {
               <tbody>
                 {repos &&
                   repos.map((repo) => (
-                    <tr className=" border-b 0 " key={repo._id}>
+                    <tr className=" border-b 0 " key={repo.name}>
                       <td
                         scope="row"
                         className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
