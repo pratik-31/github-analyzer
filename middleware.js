@@ -7,10 +7,7 @@ export async function middleware(req) {
     const token = await getToken({ req });
     if (!token) {
       return NextResponse.redirect(
-        new URL(
-          "/api/auth/signin?callbackUrl=http%3A%2F%2Flocalhost%3A3000%2F",
-          req.url
-        )
+        new URL("/api/auth/signin?callbackUrl=%2F", req.url)
       );
     }
   } catch (error) {
